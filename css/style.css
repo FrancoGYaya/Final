@@ -55,32 +55,58 @@ h1 {
     padding: 10px;
 }
 
-.Form {
+.Form
+{
     padding: 10px;
 }
 
-.relleno {
+#botoncito  
+{
+    background-color: #00C6E4;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    z-index: 100;
+}
+#botoncito:hover
+{
+    background-color: #FF517B;
+    transform: scale(1.05);
+}
+
+.relleno
+{
     display: flex;
     padding: 25px;
 }
 
-.relleno img {
+.relleno img
+{
     border-radius: 20px;
     max-width: 100%;
 }
 
-input {
+input
+{
     display: block;
     padding: 5px;
     width: 100%;
 }
 
-textarea {
+textarea
+{
     padding: 5px;
     width: 100%;
 }
 
-.logo {
+.logo
+{
     padding: 20px;
     height: 100px;
 }
@@ -97,7 +123,8 @@ textarea {
     color: white;
 }
 
-.boton {
+.boton
+{
     background-color: #00C6E4;
     text-align: center;
     border: none;
