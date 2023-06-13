@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Form, nav, multimedia, ">
+    <meta name="author" content="Franco G. Yaya">
+    <meta name="description" content="Pagina del proyecto final para BA Multiplica">
+    <title>Proyecto final - Acerca de Franco Yaya</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/Img/favicon.ico">
+</head>
+
+<body>
+    <audio id="AudioClaro" src="/Media/LM.mp3"></audio>
+    <audio id="AudioOscuro" src="/Media/DM.mp3"></audio>
+    <audio id="Gaspi" src="/Media/Fiumba.mp3"></audio>
+    <script src="/Scripts/LMDM.js"></script>
+    <script src="/Scripts/script.js"></script>   
+    
+    <header>
+        <img class=logo src="/img/logo1.png">  
+    </header>
+    
+    <div class="Barra" id="Nav">
+        <a href="/index.html"><i class="fa fa-home"></i> INICIO</a>
+        <a href="multimedia.html"><i class="fa fa-film"></i> MULTIMEDIA</a>
+        <a href="contact.html"><i class="fa fa-envelope"></i> CONTACTO</a>
+        <a href="about.html" class="activo"><i class="fa fa-user"></i> ACERCA DE</a>
+        <a href="javascript:void(0);" class="icono" onclick="borger()"> <i class="fa fa-bars"></i> </a>
+    </div>
+    
+    <h1>ACERCA DE FRANCO YAYA</h1>
+    
+    <div class="Acerca">
+        <div id="YO">
+            <img class=Foto src="/img/yo.jpg">
+            <p>Franco Gabriel Yaya, actual estudiante de Ingenieria en Sistemas de Informacion en la UTN FRRe. Corrientino que vive en Chaco. Egresado del colegio Secundario "Manuel Ramon Gonzales", 6 años de formación en el instituto de Ingles Maria Nazareth de la Paz, y con certificación de B2 First por Cambridge Universtiy</p>
+        </div>
+        <div id="TRABAJO">
+            <div class="bloque"></div>
+                <p>Autoproclamado técnico informatico. Tengo experiencia con equipos tecnológicos y desarrollo de contenido multimedia. Trabajo como diseñador de imagenes y videos promocionales para consultoras independientes de Mary Kay</p>
+                <img class=Foto src="/img/rep.jpg">
+        </div>
+        <div id="EXP">
+            <img class=Foto src="/img/s.png">
+            <p>YouTuber, gamer, otaku de alto nivel y hago memes de dudosa calidad. Adicto a la cafeina y Monster Energy. Me gusta dibujar tanto en digital como tradicional.</p>
+        </div>
+    </div>
+    
+    <h1>ENCONTRAME EN</h1>
+    
+    <div class="info">   
+        <a href="https://www.youtube.com/c/FrancoYaya" target="_blank"> <i class="fa fa-youtube"></i> YOUTUBE</a>
+        <a href="https://twitter.com/FYDrawings" target="_blank"> <i class="fa fa-twitter"></i> TWITTER</a>
+        <a href="https://wa.me/+5493794352427" target="_blank"> <i class="fa fa-whatsapp"></i> WHATSAPP</a>
+    </div>
+    
+    <footer>
+        <div class="cosas"> 
+            <section class="izq">
+                <img src="/img/fc.png">
+                <p>Inhale the memes, exhale the memes. Inject the memes into my bloodstream </p>
+            </section>
+            <section class="centro">
+                <img class="logo" src="/img/logo1.png">
+            </section>
+            <section class="derecha">
+                <div>
+                    <a class ="boton" href="https://www.youtube.com/c/FrancoYaya" target="_blank"> <i class="fa fa-youtube"></i></a>
+                    <a class ="boton" href="https://twitter.com/FYDrawings" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    <a class ="boton" href="https://wa.me/+5493794352427" target="_blank"> <i class="fa fa-whatsapp"></i></a>
+                </div>
+            </section>
+            <div class="botones">
+                <button class ="boton" id="Modo" onclick="cambiar()"><i class="fa fa-eye"></i></i></button>
+                <button class ="boton" id="Volador" onclick="flymetothemoon()"><i class="fa fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
