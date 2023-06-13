@@ -215,9 +215,12 @@ textarea {
     margin-top: 25px;
 }
 
-.Acerca p {
-    padding: 0px 20px;
+.Acerca p
+{
+    font-size: 20px;
+    padding: 20px;
 }
+
 
 .Foto {
     border-radius: 100%;
@@ -248,6 +251,7 @@ textarea {
 
 .p1
 {
+    margin: 10px;
     max-height: 200px;
     padding: 10px;
     display: flex;
@@ -266,10 +270,11 @@ textarea {
 .p1 p
 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .p2
 {
+    margin: 10px;
     max-height: 200px;
     padding: 10px;
     display: flex;
@@ -288,11 +293,12 @@ textarea {
 .p2 p
 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .p3
 {
+    margin: 10px;
     max-height: 200px;
     padding: 10px;
     display: flex;
@@ -311,7 +317,7 @@ textarea {
 .p3 p
 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #YO {
