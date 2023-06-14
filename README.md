@@ -12,4 +12,6 @@ Las funciones y scripts, y los distintos estilos, fueron, en su mayoria, hechos 
 
 Todos los graficos y elementos multimedia, a excepction de 3 imagenes, fueron hechos totalmente por mi.
 
-Esta no es la version final. Con el tiempo la pagina se ira actualizando para hacerla mas accesible y comoda
+Esta no es la version final. Con el tiempo la pagina se ira actualizando para hacerla mas accesible y comoda.
+
+La página web es un blog personal, donde se destacan varios puntos sobre mi, con referencias y un toque de humor
